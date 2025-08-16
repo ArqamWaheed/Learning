@@ -38,3 +38,5 @@ function transformX(element, transformation) {
   let currentTransform = element.style.transform || "";
   element.style.transform = `${currentTransform} translateX(${transformation})`;
 }
+
+setInterval(slideRight, 5000);
