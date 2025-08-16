@@ -60,8 +60,12 @@ h6 {
   width: 500px;
   height: 500px;
   background-color: black;
-  /* overflow: hidden; */
+  overflow: hidden;
   font-size: 2rem;
+}
+
+.left {
+  display: none;
 }
 
 .left,
@@ -87,6 +91,7 @@ h6 {
   width: max-content;
   background-color: green;
   display: flex;
+  transition: all 0.2s ease;
 }
 
 .wideFrame img {
