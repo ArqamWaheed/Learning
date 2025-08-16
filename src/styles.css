@@ -57,10 +57,10 @@ h6 {
 
 .pictureFrame {
   position: relative;
-  width: 1000px;
+  width: 500px;
   height: 500px;
   background-color: black;
-  overflow: hidden;
+  /* overflow: hidden; */
   font-size: 2rem;
 }
 
@@ -86,9 +86,7 @@ h6 {
   height: 500px;
   width: max-content;
   background-color: green;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  display: flex;
 }
 
 .wideFrame img {
